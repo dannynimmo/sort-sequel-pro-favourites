@@ -27,5 +27,5 @@ This has only been tested on the latest version of [Sequel Pro](https://www.sequ
 
 Run from the command line, passing in the path to your favourites file (on MacOS the default location is `~/Library/Application\ Support/Sequel\ Pro/Data/Favorites.plist`):
 ```bash
-sort-sequel-pro-favourites.phar --file /path/to/Favorites.plist
+sort-sequel-pro-favourites --file /path/to/Favorites.plist
 ```
