@@ -9,15 +9,15 @@ This has only been tested on the latest version of [Sequel Pro](https://www.sequ
 
 1. Download the latest release:
     ```bash
-    curl -O https://github.com/dannynimmo/sort-sequel-pro-favourites/releases/download/0.1.0/sort-sequel-pro-favourites.phar
+    curl --output /usr/local/bin/sort-sequel-pro-favourites https://raw.githubusercontent.com/dannynimmo/sort-sequel-pro-favourites/0.1.0/sort-sequel-pro-favourites.phar
     ```
 2. Make the file executable:
     ```bash
-    chmod u+x ./sort-sequel-pro-favourites.phar
+    chmod u+x /usr/local/bin/sort-sequel-pro-favourites
     ```
 3. Verify your installation:
     ```bash
-    sort-sequel-pro-favourites.phar --version
+    sort-sequel-pro-favourites --version
     ```
     The command should execute successfully and output the version information:
     > Sort Sequel Pro Favourites version 0.1.0
